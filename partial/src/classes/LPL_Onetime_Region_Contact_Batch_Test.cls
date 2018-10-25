@@ -13,6 +13,7 @@ public class LPL_Onetime_Region_Contact_Batch_Test {
         List<Opportunity> oppList = new List<Opportunity>();
         Account acc = new Account(Name='Test Account');
         insert acc;
+        system.debug('Hi');
         for(Integer i=1;i<=5;i++){
             conList.add(new Contact(LastName='Test'+i,Discovery_Home_Zip__c='100'+i,MailingPostalCode='200'+i,recordTypeId=conRecordTypeId));
         }
