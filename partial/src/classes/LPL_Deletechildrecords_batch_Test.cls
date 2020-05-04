@@ -2,7 +2,7 @@
 public class LPL_Deletechildrecords_batch_Test {
     
     static testmethod void getcontactsmethod() {
-        //testing VScode
+        //testing VScode manila
         Trigger_Bypass__c tbp = new Trigger_Bypass__c();
         tbp.name='Contact';
         tbp.IsOff__c = true;
